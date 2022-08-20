@@ -39,21 +39,16 @@ exclude_patterns = []
 html_show_sphinx = False
 html_show_copyright = False
 
-# https://alabaster.readthedocs.io/en/latest/
-html_theme = 'alabaster'
+# https://sphinx-themes.org/sample-sites/furo/
+# https://pradyunsg.me/furo/
+html_theme = 'furo'
+html_title = "Thy's Notes"
+
 html_theme_options = {
-    # 'description'     : "Collection of Scratch Notes, Snippets, HowTos, Public Docs, etc",
-
-    'fixed_sidebar'   : True,
-    'sidebar_collapse': True,
-    'show_powered_by' : False,
-    'show_relbars'    : True,
-
-    # 'page_width'      : '1350px',
-    # 'sidebar_width'   : '250px',
-    'body_max_width'  : 'auto',
-
+    'navigation_with_keys': True,
+    # 'sidebar_hide_name'   : True,
 }
+
 html_js_files = [
     'js/custom.js'
 ]

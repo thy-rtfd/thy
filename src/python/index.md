@@ -2,6 +2,5 @@
 ```{eval-rst}
 .. toctree::
 
-   quickref
-   notes
+   drafts/index
 ```

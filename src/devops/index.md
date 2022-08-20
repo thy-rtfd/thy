@@ -2,6 +2,6 @@
 ```{eval-rst}
 .. toctree::
 
-   thy_dev_machine
+   thy_dev_machine/index
    git/howto
 ```
